@@ -1,0 +1,19 @@
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    background: yellow;
+    border: 1px solid;
+}
+
+.wrapper2 {
+    margin-top: 50PX;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    background: forestgreen;
+}
