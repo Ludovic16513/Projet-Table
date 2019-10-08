@@ -1,19 +1,37 @@
 
 
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 0px;
-    grid-auto-rows: minmax(100px, auto);
     background: yellow;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, 100px);
     border: 1px solid;
+    font-family: Calibri;
+    width: 37.80%;
+
 }
 
 .wrapper2 {
-    margin-top: 50PX;
+    font-family: Calibri;
+    margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 100px);
     grid-gap: 0px;
-    grid-auto-rows: minmax(100px, auto);
-    background: forestgreen;
+    grid-auto-rows: minmax(100px, 100px);
+    width: 37.80%;
+    background: yellow;
 }
+
+div {
+    font-weight: bolder;
+
+}
+
+p{
+    padding-top: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+
+}
+
